@@ -7,4 +7,4 @@ Java Script. For the front-end I have also used an app for making Bootstrapping 
 CRUD operations over the MySQL database. The purpose of the site is to allow users to create a profile
 about themselves, create profiles of the games they are playing and create the profiles they have in the
 added games. This way, the users can compare their stats with the stats of other players and users of the
-website.
+website. The server is hosted using Apache Tomcat.
