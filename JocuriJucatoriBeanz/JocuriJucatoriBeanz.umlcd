@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_lO4yAIftEeymisg4x6sH3Q">
+  <modelElement href="JocuriJucatoriBeanz.uml#_lazuIIftEeymisg4x6sH3Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_leoeMIftEeymisg4x6sH3Q" source="_lepFSIftEeymisg4x6sH3Q">
+    <modelElement href="JocuriJucatoriBeanz.uml#_lbzzsIftEeymisg4x6sH3Q"/>
+    <stereotypes xmi:id="_lepFQIftEeymisg4x6sH3Q" name="Reference">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lb0awIftEeymisg4x6sH3Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lepFQYftEeymisg4x6sH3Q" text=""/>
+    <sourceRole xmi:id="_lepFQoftEeymisg4x6sH3Q" aggregationKind="NONE" name="">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbzzsYftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFQ4ftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFRIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lepFRYftEeymisg4x6sH3Q" aggregationKind="NONE" name="con" navigable="true">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbse8IftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFRoftEeymisg4x6sH3Q" label="~"/>
+      <cardinality xmi:id="_lepFR4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lepFSIftEeymisg4x6sH3Q" name="JavaBean" associationsOut="_leoeMIftEeymisg4x6sH3Q">
+    <modelElement href="JocuriJucatoriBeanz.uml#_la4moIftEeymisg4x6sH3Q"/>
+    <visualProperties xmi:id="_lepFSYftEeymisg4x6sH3Q" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lepFSoftEeymisg4x6sH3Q" label="+"/>
+    <attributes xmi:id="_lepFS4ftEeymisg4x6sH3Q" name="error">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbr34IftEeymisg4x6sH3Q"/>
+      <stereotypes xmi:id="_lepFTIftEeymisg4x6sH3Q" name="LegacyStyledElement">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbr34YftEeymisg4x6sH3Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lepFTYftEeymisg4x6sH3Q" label="~"/>
+      <cardinality xmi:id="_lepFToftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <type xmi:id="_lepFT4ftEeymisg4x6sH3Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lepFUIftEeymisg4x6sH3Q" name="con">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbse8IftEeymisg4x6sH3Q"/>
+      <stereotypes xmi:id="_lepFUYftEeymisg4x6sH3Q" name="LegacyStyledElement">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbse8YftEeymisg4x6sH3Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lepFUoftEeymisg4x6sH3Q" label="~"/>
+      <cardinality xmi:id="_lepFU4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <type xmi:id="_lepFVIftEeymisg4x6sH3Q" name="Connection">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbfqoIftEeymisg4x6sH3Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lepFVYftEeymisg4x6sH3Q" name="JavaBean">
+      <modelElement href="JocuriJucatoriBeanz.uml#_la50wIftEeymisg4x6sH3Q"/>
+      <keywords xmi:id="_lepFVoftEeymisg4x6sH3Q" keyword="create"/>
+      <stereotypes xmi:id="_lepFV4ftEeymisg4x6sH3Q" name="LegacyStyledElement">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la6b0YftEeymisg4x6sH3Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lepFWIftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFWYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lepFWoftEeymisg4x6sH3Q">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la6b0oftEeymisg4x6sH3Q"/>
+        <type xmi:id="_lepFW4ftEeymisg4x6sH3Q" name="JavaBean">
+          <modelElement href="JocuriJucatoriBeanz.uml#_la4moIftEeymisg4x6sH3Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lepFXIftEeymisg4x6sH3Q" name="connect">
+      <modelElement href="JocuriJucatoriBeanz.uml#_la7C4IftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFXYftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFXoftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lepFX4ftEeymisg4x6sH3Q" name="connect">
+      <modelElement href="JocuriJucatoriBeanz.uml#_la7p8IftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFYIftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFYYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lepFYoftEeymisg4x6sH3Q" name="bd">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la7p8YftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFY4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFZIftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepFZYftEeymisg4x6sH3Q" name="connect">
+      <modelElement href="JocuriJucatoriBeanz.uml#_la8RAIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFZoftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFZ4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lepFaIftEeymisg4x6sH3Q" name="bd">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la8RAYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFaYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFaoftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFa4ftEeymisg4x6sH3Q" name="ip">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la8RAoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFbIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFbYftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepFboftEeymisg4x6sH3Q" name="disconnect">
+      <modelElement href="JocuriJucatoriBeanz.uml#_la84EIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFb4ftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFcIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lepFcYftEeymisg4x6sH3Q" name="adaugaJucator">
+      <modelElement href="JocuriJucatoriBeanz.uml#_la9fIIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFcoftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFc4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lepFdIftEeymisg4x6sH3Q" name="nume">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la9fIYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFdYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFdoftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFd4ftEeymisg4x6sH3Q" name="prenume">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la9fIoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFeIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFeYftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFeoftEeymisg4x6sH3Q" name="email">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la9fI4ftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFe4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFfIftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFfYftEeymisg4x6sH3Q" name="data_nastere">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la9fJIftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFfoftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFf4ftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFgIftEeymisg4x6sH3Q" name="gen">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la9fJYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFgYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFgoftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFg4ftEeymisg4x6sH3Q" name="nationalitate">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la9fJoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFhIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFhYftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepFhoftEeymisg4x6sH3Q" name="vedeTabela">
+      <modelElement href="JocuriJucatoriBeanz.uml#_la_UUIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFh4ftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFiIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lepFiYftEeymisg4x6sH3Q">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbm_YYftEeymisg4x6sH3Q"/>
+        <type xmi:id="_lepFioftEeymisg4x6sH3Q" name="ResultSet">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbmYUIftEeymisg4x6sH3Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lepFi4ftEeymisg4x6sH3Q" name="tabel">
+        <modelElement href="JocuriJucatoriBeanz.uml#_la_UUYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFjIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFjYftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepFjoftEeymisg4x6sH3Q" name="vedeProfil">
+      <modelElement href="JocuriJucatoriBeanz.uml#_la_UUoftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFj4ftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFkIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lepFkYftEeymisg4x6sH3Q">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbnmcIftEeymisg4x6sH3Q"/>
+        <type xmi:id="_lepFkoftEeymisg4x6sH3Q" name="ResultSet">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbmYUIftEeymisg4x6sH3Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lepFk4ftEeymisg4x6sH3Q" name="stergeDateTabela">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbAicIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFlIftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFlYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lepFloftEeymisg4x6sH3Q" name="primaryKeys">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbAicYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFl4ftEeymisg4x6sH3Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_lepFmIftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFmYftEeymisg4x6sH3Q" name="tabela">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbAicoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFmoftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFm4ftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFnIftEeymisg4x6sH3Q" name="dupaID">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbAic4ftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFnYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFnoftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepFn4ftEeymisg4x6sH3Q" name="stergeTabela">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbBJgIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFoIftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFoYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lepFooftEeymisg4x6sH3Q" name="tabela">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbBJgYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFo4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFpIftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepFpYftEeymisg4x6sH3Q" name="adaugaJoc">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbj8EYftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFpoftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFp4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lepFqIftEeymisg4x6sH3Q" name="nume">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbkjIIftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFqYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFqoftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFq4ftEeymisg4x6sH3Q" name="nr_jucatori">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbkjIYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFrIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFrYftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFroftEeymisg4x6sH3Q" name="tip">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbkjIoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFr4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFsIftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFsYftEeymisg4x6sH3Q" name="data_lansarii">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbkjI4ftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFsoftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFs4ftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFtIftEeymisg4x6sH3Q" name="Developer">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbkjJIftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFtYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFtoftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFt4ftEeymisg4x6sH3Q" name="next_champ">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbkjJYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFuIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFuYftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFuoftEeymisg4x6sH3Q" name="nr_champ">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbkjJoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFu4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFvIftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFvYftEeymisg4x6sH3Q" name="act_Champion">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbkjJ4ftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFvoftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFv4ftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepFwIftEeymisg4x6sH3Q" name="adaugaProfil">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lblxQIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepFwYftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepFwoftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lepFw4ftEeymisg4x6sH3Q" name="idjucator">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lblxQYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFxIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFxYftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFxoftEeymisg4x6sH3Q" name="idjoc">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lblxQoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFx4ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFyIftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFyYftEeymisg4x6sH3Q" name="data_creare">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lblxQ4ftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFyoftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFy4ftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFzIftEeymisg4x6sH3Q" name="grad">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lblxRIftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepFzYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepFzoftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepFz4ftEeymisg4x6sH3Q" name="nr_camp">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lblxRYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF0IftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF0YftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepF0oftEeymisg4x6sH3Q" name="nr_medalii">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lblxRoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF04ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF1IftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepF1YftEeymisg4x6sH3Q" name="campion">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lblxR4ftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF1oftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF14ftEeymisg4x6sH3Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepF2IftEeymisg4x6sH3Q" name="username">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lblxSIftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF2YftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF2oftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepF24ftEeymisg4x6sH3Q" name="modificaTabela">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lboNgIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepF3IftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepF3YftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lepF3oftEeymisg4x6sH3Q" name="tabela">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lboNgYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF34ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF4IftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepF4YftEeymisg4x6sH3Q" name="IDTabela">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lboNgoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF4oftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF44ftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepF5IftEeymisg4x6sH3Q" name="ID">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lboNg4ftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF5YftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF5oftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepF54ftEeymisg4x6sH3Q" name="campuri">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lboNhIftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF6IftEeymisg4x6sH3Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_lepF6YftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepF6oftEeymisg4x6sH3Q" name="valori">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lboNhYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF64ftEeymisg4x6sH3Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_lepF7IftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepF7YftEeymisg4x6sH3Q" name="intoarceLinie">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbpboIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepF7oftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepF74ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lepF8IftEeymisg4x6sH3Q">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbpbo4ftEeymisg4x6sH3Q"/>
+        <type xmi:id="_lepF8YftEeymisg4x6sH3Q" name="ResultSet">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbmYUIftEeymisg4x6sH3Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lepF8oftEeymisg4x6sH3Q" name="tabela">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbpboYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF84ftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF9IftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepF9YftEeymisg4x6sH3Q" name="ID">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbpbooftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF9oftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF94ftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepF-IftEeymisg4x6sH3Q" name="intoarceLinieDupaId">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbqCsIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepF-YftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepF-oftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lepF-4ftEeymisg4x6sH3Q">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbqCtIftEeymisg4x6sH3Q"/>
+        <type xmi:id="_lepF_IftEeymisg4x6sH3Q" name="ResultSet">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbmYUIftEeymisg4x6sH3Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lepF_YftEeymisg4x6sH3Q" name="tabela">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbqCsYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepF_oftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepF_4ftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepGAIftEeymisg4x6sH3Q" name="denumireId">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbqCsoftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepGAYftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepGAoftEeymisg4x6sH3Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lepGA4ftEeymisg4x6sH3Q" name="ID">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbqCs4ftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepGBIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepGBYftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lepGBoftEeymisg4x6sH3Q" name="intoarceProfilId">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbqpwIftEeymisg4x6sH3Q"/>
+      <visibility xmi:id="_lepGB4ftEeymisg4x6sH3Q" label="+"/>
+      <cardinality xmi:id="_lepGCIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lepGCYftEeymisg4x6sH3Q">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbqpwoftEeymisg4x6sH3Q"/>
+        <type xmi:id="_lepGCoftEeymisg4x6sH3Q" name="ResultSet">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbmYUIftEeymisg4x6sH3Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lepGC4ftEeymisg4x6sH3Q" name="ID">
+        <modelElement href="JocuriJucatoriBeanz.uml#_lbqpwYftEeymisg4x6sH3Q"/>
+        <cardinality xmi:id="_lepGDIftEeymisg4x6sH3Q" label="1" max="1" min="1"/>
+        <type xmi:id="_lepGDYftEeymisg4x6sH3Q" name="Long">
+          <modelElement href="JocuriJucatoriBeanz.uml#_lbjVAIftEeymisg4x6sH3Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lezdUIftEeymisg4x6sH3Q" name="ClassNotFoundException">
+    <modelElement href="JocuriJucatoriBeanz.uml#_lbg4wYftEeymisg4x6sH3Q"/>
+    <visualProperties xmi:id="_lezdUYftEeymisg4x6sH3Q" position="1191.0,437.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_lezdUoftEeymisg4x6sH3Q" name="Reference">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbhf0IftEeymisg4x6sH3Q"/>
+    </stereotypes>
+    <visibility xmi:id="_lezdU4ftEeymisg4x6sH3Q" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_le1SgIftEeymisg4x6sH3Q" name="SQLException">
+    <modelElement href="JocuriJucatoriBeanz.uml#_lbhf0YftEeymisg4x6sH3Q"/>
+    <visualProperties xmi:id="_le1SgYftEeymisg4x6sH3Q" position="-146.0,437.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_le1SgoftEeymisg4x6sH3Q" name="Reference">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbiG4IftEeymisg4x6sH3Q"/>
+    </stereotypes>
+    <visibility xmi:id="_le1Sg4ftEeymisg4x6sH3Q" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_le2goIftEeymisg4x6sH3Q" name="Exception">
+    <modelElement href="JocuriJucatoriBeanz.uml#_lbiG4YftEeymisg4x6sH3Q"/>
+    <visualProperties xmi:id="_le2goYftEeymisg4x6sH3Q" position="-284.0,437.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_le2gooftEeymisg4x6sH3Q" name="Reference">
+      <modelElement href="JocuriJucatoriBeanz.uml#_lbit8IftEeymisg4x6sH3Q"/>
+    </stereotypes>
+    <visibility xmi:id="_le2go4ftEeymisg4x6sH3Q" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
